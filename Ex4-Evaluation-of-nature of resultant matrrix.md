@@ -5,33 +5,18 @@ To write a java function to evaluate weather the given Matrix A has all odd numb
 
 ## Algorithm
 1. Start the program.
-2.Read the dimensions of both matrices (rows and columns).
-Check whether Matrix A and Matrix B have the same dimensions.
-If not, display “Matrices are not of same dimension” and stop.
-3. Read Matrix A and check each element:
-
-If every element is odd, continue.
-
-If any element is even, mark A as invalid and stop further checking.
-
+2. Read the dimensions of both matrices (rows and columns).
+3. Check whether Matrix A and Matrix B have the same dimensions.
+4. If not, display “Matrices are not of same dimension” and stop.
 5. Read Matrix A and check each element:
-   
-If every element is odd, continue.
-
-If any element is even, mark A as invalid and stop further checking.
-
-5.If both matrices are valid, compute the resultant matrix (e.g., A + B or any operation specified).
-Determine the nature of the resultant matrix:
-
-If all elements are odd, print “Resultant matrix is an Odd Matrix”.
-
-If all elements are even, print “Resultant matrix is an Even Matrix”.
-
-Otherwise, print “Resultant matrix is a Mixed Matrix”.
-
-6.Display the Resultant Matrix.
-
-7.Stop the program.
+6. If every element is odd, continue.
+7. If any element is even, mark A as invalid and stop further checking.
+8. If both matrices are valid, compute the resultant matrix (e.g., A + B or any operation specified).
+9. Determine the nature of the resultant matrix:
+10. If all elements are odd, print “Resultant matrix is an Odd Matrix”.
+11. If all elements are even, print “Resultant matrix is an Even Matrix”.
+12. Display the Resultant Matrix.
+13. Stop the program.
 
 ## Program:
 ```
